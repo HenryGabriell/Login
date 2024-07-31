@@ -26,6 +26,11 @@ img {
     z-index: 0;
 }
 
+h1{
+    display: flex;
+    justify-content: center;
+}
+
 #container {
     position: relative;
     background-color: aquamarine;
@@ -54,4 +59,20 @@ input{
 .inp::placeholder{
     padding-left: 20px;
     color: blue;
+}
+
+#remember{
+    display: inline-flex;
+    margin-top: 5px;
+}
+
+label{
+    margin-left:5px;
+}
+
+#check{
+    width: 15px;
+    height: auto;
+    margin-top: 0;
+    margin-left: 5px;
 }
