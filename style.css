@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    scrollbar-width: none;
+    height: 100%;
+}
+
+#main{
+    overflow: hidden;
+}
