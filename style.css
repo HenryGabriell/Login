@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Comfortaa:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Orbitron:wght@400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
 }
 
 body, html {
@@ -24,31 +28,43 @@ img {
     width: 100%;
     height: 100%;
     z-index: 0;
+    filter: brightness(75%)
 }
 
 h1{
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 #container {
     position: relative;
-    background-color: aquamarine;
-    width: 300px;
+    backdrop-filter: blur(3px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 400px;
+    height: 310px;
     padding: 20px;
     z-index: 1;
     margin: auto;
-    top: 35%;
+    top: 25%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    text-align: center;
 }
 
 form {
     margin-top: 20px;
-
+    width: 100%; /* Garante que o formulário ocupe toda a largura do contêiner */
+    align-items: center;
 }
 
 
 input{
-    margin-top: 8px;
+    margin-top: 20px;
     width: 90%;
     height: 35px;
     border-radius: 15px;
@@ -56,15 +72,25 @@ input{
 }
 
 
+.inp {
+    background: transparent; /* Certifique-se de que o fundo do input é transparente ou definido como necessário */
+    border: 1.5px solid white;
+    color: white; /* Cor do texto no input */
+    outline: none;
+}
+
+
 .inp::placeholder{
     padding-left: 20px;
-    color: blue;
+    color: #ffffff; /* Branco puro */
+    opacity: 1; /* Garante que o texto do placeholder seja totalmente opaco */
 }
 
 #remember{
     display: inline-flex;
-    margin-top: 5px;
 }
+
+
 
 label{
     margin-left:5px;
@@ -76,3 +102,39 @@ label{
     margin-top: 0;
     margin-left: 5px;
 }
+
+#forgot{
+    display: inline-flex;
+    cursor: pointer;
+}
+
+#forgot :hover{
+    text-decoration: underline;
+}
+
+#remfor{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#logar{
+    background-color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+#accnt{
+    margin-top: 15px;
+}
+
+.strongg{
+    cursor: pointer;
+}
+
+.strongg:hover{
+    text-decoration: underline;
+}
+
