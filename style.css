@@ -80,11 +80,12 @@ input{
     border: 1.5px solid white;
     color: white; /* Cor do texto no input */
     outline: none;
+    padding: 20px 45px 20px 20px;
 }
 
 
 .inp::placeholder{
-    padding-left: 20px;
+    /* padding-left: 20px; */
     color: #ffffff; /* Branco puro */
     opacity: 1; /* Garante que o texto do placeholder seja totalmente opaco */
 }
