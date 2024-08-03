@@ -126,9 +126,23 @@ label {
 
 #logar {
     background-color: white;
-    cursor: pointer;
-    margin-top: 20px;
+    color: black; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 15px; /* Adiciona arredondamento às bordas */
+    width: 90%; /* Largura do botão */
+    height: 35px; /* Altura do botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    font-weight: bold; /* Negrito para o texto */
+    margin-top: 20px; /* Espaço acima do botão */
+    transition: background-color 0.3s, color 0.3s; /* Adiciona uma transição suave para alterações de cor */
 }
+
+#logar:hover {
+    background-color: #f0f0f0; /* Cor de fundo quando o botão é hovered */
+    color: black; /* Cor do texto quando o botão é hovered */
+}
+
+
 
 #accnt {
     margin-top: 15px;
