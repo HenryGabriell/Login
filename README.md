@@ -10,7 +10,7 @@ Da uma olhada: https://henrygabriell.github.io/Login/
 <br>
 <hr>
 
-<img width="600" height="300" src="https://github.com/user-attachments/assets/776d7c70-93ec-4270-ab10-c464876edd3c">
+<img width="600" height="300" src="https://github.com/user-attachments/assets/853689a4-b3a7-46eb-9458-10cb30f07e8c">
 
 
 
